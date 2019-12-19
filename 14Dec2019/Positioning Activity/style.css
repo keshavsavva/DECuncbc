@@ -1,0 +1,35 @@
+.fixed {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #eee;
+    padding: 20px;
+    font-size: 20px;
+
+}
+
+.relative {
+    text-align: center;
+    position: relative;
+    background-color: #eee;
+    padding: 20px;
+    height: 250px;
+    width: 50%;
+    left: 25%;
+
+}
+
+.absolute {
+    text-align: center;
+    position: absolute;
+    background-color: #888888;
+    right: -10px;
+    padding: 20px;
+    bottom: 0;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+}

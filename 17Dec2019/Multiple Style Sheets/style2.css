@@ -1,0 +1,19 @@
+.box1 {
+    height: 200px;
+    width: 200px;
+    border: 1px dashed #ccc;
+    background-color: red;
+}
+.box2 {
+    height: 200px;
+    width: 200px;
+    border: 1px dashed #ccc;
+    background-color: lightpink;
+}
+.box3 {
+    height: 200px;
+    width: 200px;
+    border: 1px dashed #ccc;
+    background-color: lightgreen !important; 
+}
+    /* This important tag allows this to trump inline styles */
